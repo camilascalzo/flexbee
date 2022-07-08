@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ebbc098265.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="style.css">
         <title>Document</title>
@@ -18,46 +19,32 @@
         <header>
             <nav>
                 <!-- <a href="" id="nav-logo" class="p-main p-brand">undertek</a> -->
-                <h1><a href="" id="nav-logo" class="p-main p-brand">gestión inteligente de espacios</a></h1>
+                <div id="nav-logo">
+                    <img src="img/imagotipo-full.svg" alt="">
+                </div>
                 
                 <ul>
-                    <li><a href="#form" id="nav-cta">agendá una demo</a></li>
+                    <li><a href="">sobre flexbee</a></li>
                     <li><a href="">beneficios</a></li>
                     <li><a href="">contacto</a>
                     </li>
                 </ul>
             </nav>
-            
         </header>
-        <div id="img-bg-1"></div>
+        
             <div id="hero"> 
-                <div id=hero-img>
-                    <div id="hero-circle">
-                        <p>UNDER</p>
-                        <p>T</p>
-                        <p>E</p>
-                        <p>K</p>
-                        <img id="hero-img" src="img/notebookUT.png" alt="">
-                        <!-- <a href="" class="btn-cta">Agendá una demo</a>                     -->
-                    
-                    </div>
-                    <!-- <div id="img-wrapper"> -->
-                        <!-- <img id="hero-img" src="img/notebook.png" alt=""> -->
-                    <!-- </div> -->
+                <div id="hero-text">
+                    <h1 class="p-title">gestión <br> inteligente <br>de espacios</h1>
+                    <!-- <a href="" class="btn-cta">Agendá una demo</a> -->
                 </div>
-                <!-- <div id="hero-text">
-                    <h1 class="p-title">Gestión <br> inteligente <br>de espacios</h1>
-                    <a href="" class="btn-cta">Agendá una demo</a>
-                </div> -->
             </div>
             <main>
               <!-- <img src="img/bg-curve-down-light.svg" alt="" id="main-curve"> -->
                 <div id="main-wrapper">
                     <div id="main-text">
-                        <h2 class="p-title wow animate__backInDown">¿Por qué Undertek?</h2>
-                        <p><span class="p-brand p-secondary">Undertek</span> es una plataforma SaaS, modular y autogestionable diseñada para administrar y organizar tus espacios y recursos según las necesidades de cada empleado.</p>
-                        <p>Sus dashboards integrados se nutren de métricas en tiempo real que permiten analizar el comportamiento de los usuarios para que puedas tomar mejores decisiones. </p>
-                        <p>Una solución centralizada y multicanal que te ayudará a reducir y optimizar costos, maximizar el uso de tus recursos, favorecer la productividad y cuidar a tus empleados.</p>
+                        <p class="p-title">¿Por qué <span class="brand-dark">flex</span><span class="brand-light">bee</span>?</p>
+                        <p class="main-par">El mundo híbrido llegó con nuevos desafíos.</p>
+                        <p class="main-par"><span class="brand-light">flex</span><span class="brand-dark">bee</span> es inteligencia aplicada a la gestión de espacios para reducir y optimizar tus costos, maximizar el uso de tus recursos, mejorar la productividad y cuidar a tus empleados.</p>
                     </div>
                 </div>
             </main>
@@ -65,59 +52,127 @@
             <div id="div-item">
                 <div class="wrapper-box-item">
                     <div class="box-item" id="box1">
-                        <img src="img/item-puzzle.svg" alt="">
+                        <i class="fa-solid fa-puzzle-piece fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Se adapta a las necesidades de tu organización para maximizar el uso de los recursos</p>
+                        <p>Se adapta a las necesidades de tu organización para maximizar el uso de los recursos.</p>
                     </div>
                     <div class="box-item" id="box2">
-                        <img src="img/item-rocket.svg" alt="">
+                        <i class="fa-solid fa-rocket fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Su implementación es simple y rápida. No requiere ninguna configuración</p>
+                        <p>Su implementación es simple y rápida. No requiere ninguna configuración.</p>
                     </div>
                     <div class="box-item" id="box3">
-                        <img src="img/item-ok.svg" alt="">
+                        <i class="fa-solid fa-location-dot fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Contiene planos interactivos que facilitan la selección de espacios y procesos de check-in a través de QR</p>
+                        <p>Contiene planos interactivos que facilitan la selección de espacios.</p>
                     </div>
-                </div>
-                <div class="wrapper-box-item">
                     <div class="box-item" id="box4">
-                        <img src="img/item-stats.svg" alt="">
+                        <i class="fa-solid fa-qrcode fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Integra dashboards para analizar las reservas y facilitar la toma de decisiones </p>
-                    </div>
-                    <div class="box-item">
-                        <img src="img/item-device.svg" alt="">
-                        <!-- <p class="p-title">titulo</p> -->
-                        <p>Posee una interfaz intuitiva que se adapta a cualquier dispositivo </p>
-                    </div>
-                    <div class="box-item">
-                        <img src="img/item-support.svg" alt="">
-                        <!-- <p class="p-title">titulo</p> -->
-                        <p>Cuenta con asistencia técnica posventa</p>
+                        <p>Proceso de check-in simplificado a través de la implementación de códigos QR.</p>
                     </div>
                 </div>
                 <div class="wrapper-box-item">
-                    <div class="box-item">
-                        <img src="img/item-mask.svg" alt="">
+                    <div class="box-item" id="box5">
+                        <i class="fa-solid fa-magnifying-glass-chart fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Permite adoptar las medidas necesarias para que tus empleados se sientan cómodos y seguros</p>
+                        <p>Integra dashboards para analizar las reservas y facilitar la toma de decisiones.</p>
                     </div>
-                    <div class="box-item">
-                        <img src="img/item-user.svg" alt="">
+                    <div class="box-item" id="box6">
+                        <i class="fa-solid fa-laptop fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Soporta la gestión de diferentes roles con funcionalidades específicas</p>
+                        <p>Posee una interfaz intuitiva que se adapta a cualquier dispositivo.</p>
                     </div>
-                    <div class="box-item">
-                        <img src="img/item-config.svg" alt="">
+                    <div class="box-item" id="box7">
+                        <i class="fa-solid fa-screwdriver-wrench fa-3x box-icon"></i>
                         <!-- <p class="p-title">titulo</p> -->
-                        <p>Asigna de forma dinámica y automática los recursos y espacios en base al aforo</p>
+                        <p>Cuenta con asistencia técnica posventa.</p>
+                    </div>
+                    <div class="box-item" id="box8">
+                        <i class="fa-solid fa-lock fa-3x box-icon"></i>
+                        <!-- <p class="p-title">titulo</p> -->
+                        <p>Gestión de cada espacio de manera segura desde cualquier dispositivo.
+                            .</p>
+                    </div>
+                </div>
+                <div class="wrapper-box-item">
+                    <div class="box-item"  id="box9">
+                        <i class="fa-solid fa-virus-covid fa-3x box-icon"></i>
+                        <!-- <p class="p-title">titulo</p> -->
+                        <p>Permite adoptar las medidas necesarias para que tus empleados se sientan cómodos y seguros.</p>
+                    </div>
+                    <div class="box-item" id="box10">
+                        <i class="fa-solid fa-user fa-3x box-icon"></i>
+                        <!-- <p class="p-title">titulo</p> -->
+                        <p>Soporta la gestión de diferentes roles con funcionalidades específicas.</p>
+                    </div>
+                    <div class="box-item" id="box11">
+                        <i class="fa-solid fa-cubes-stacked fa-3x box-icon"></i>
+                        <!-- <p class="p-title">titulo</p> -->
+                        <p>Asigna de forma dinámica y automática los recursos y espacios en base al aforo.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <span class="bg-line-light">
+            <span class="bg-curve-light"></span>
+        </span>
+        
+        <section id="section-secondary">
+            <div id="section-secondary-img">
+                <img src="img/notebookUT.png" alt="">
+            </div>
+            <div id="section-secondary-text">
+                <p class="main-par"> Una plataforma SaaS, modular y autogestionable diseñada para administrar y organizar tus espacios y recursos según las necesidades de cada empleado.</p>
+                <p class="main-par">Una arquitectura simple, flexible y de rápido despliegue.</p>
+                <p class="main-par">Sus dashboards integrados se nutren de métricas en tiempo real que permiten analizar el comportamiento de los usuarios para que puedas tomar mejores decisiones.</p>
+                <a href="" class="btn-cta">Agendá una demo</a>
+
+            </div>
+
+
+        </section>
+        <section id="section-details">
+            <div class="section-details-card-wrapper">
+                <div class="section-details-card">
+                    <!-- <h3 class="card-title">estacionamiento</h3> -->
+                    <img class="card-icon" src="img/estacionamiento.png" alt="">
+                    <!-- <i class="fa-solid fa-car fa-5x card-icon"></i> -->
+                    <p class="card-p">Reserva ágil de espacios de estacionamiento para cualquier tipo de vehículo.</p>
+                </div>
+                <div class="section-details-card">
+                    <!-- <h3 class="card-title">oficinas</h3> -->
+                    <img class="card-icon" src="img/oficina.png" alt="">
+                    <!-- <i class="fa-solid fa-user fa-5x card-icon"></i> -->
+                    <p class="card-p">Identificación y rápida gestión de oficinas privadas.</p>
+                </div>
+                <div class="section-details-card">
+                    <!-- <h3 class="card-title">salas de reunión</h3> -->
+                    <img class="card-icon" src="img/sala.png" alt="">
+                    <!-- <i class="fa-solid fa-users-line fa-5x card-icon"></i> -->
+                    <p class="card-p">Asignación eficiente de espacios de trabajo en lugares abiertos y de oficinas para equipos.</p>
+                </div>
+                <div class="section-details-card">
+                    <!-- <h3 class="card-title">comedor</h3> -->
+                    <img class="card-icon" src="img/comedor.png" alt="">
+                    <!-- <i class="fa-solid fa-utensils fa-5x card-icon"></i> -->
+                    <p class="card-p">Gestión organizada de espacios compartidos de cualquier tipo.</p>
+                </div>
+                <div class="section-details-card">
+                    <!-- <h3 class="card-title">TEST</h3> -->
+                    <img class="card-icon" src="img/supplies.png" alt="">
+                    <!-- <i class="fa-solid fa-car fa-5x card-icon"></i> -->
+                    <p class="card-p">Reserva de materiales necesarios para el trabajo en equipo.</p>
+                </div>
+            </div>
+
+        </section>
         <form id="form" action="">
-            <p><span class="p-title">Contactanos</span>Descubrí por qué <span class="p-brand p-secondary">undertek</span> es el mejor aliado de tu negocio.</p>
+            <div id="form-text-wrapper">
+                <p class="p-title">Contactanos</p>
+                <p class="main-par">Descubrí por qué <span class="brand-dark">flex</span><span class="brand-light">bee</span> es el mejor aliado de tu negocio.</p>
+            </div>
+            
             <div id="contact-wrapper">
                 <div class="form-field">
                     <label for="name">Nombre<span>*</span></label>
@@ -135,6 +190,10 @@
                     <label for="email">Email<span>*</span></label>
                     <input type="email" name="email" id="email" required>
                 </div>
+                <div class="form-field">
+                    <label for="phone">Teléfono</label>
+                    <input type="text" name="phone" id="phone" required>
+                </div>
                 
                 <div class="form-field">
                     <label for="message">Mensaje</label>
@@ -144,31 +203,22 @@
             </div>
         </form>
         <footer>
-            <div id="footer-info">
-                <a href="">info@undertek.com</a>
-                <p class="p-brand">Undertek</p>
+            <div id="footer-contact">
+                <a href="">contacto@flexbee.app</a>
             </div>
-            <p id="footer-copy">&copy; Camila Scalzo <br> 2022 - derechos reservados</p>
+            <div id="footer-copy">
+                <img src="img/imagotipo-blanco.svg" alt="">
+
+                <p id="footer-copy">&copy; flexbee - 2022 - derechos reservados</p>
+                <p>Web created by <a>Camila Scalzo</a></p>
+            </div>
 
         </footer>
 
-
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script>
-            let rellax = new Rellax(".rellax");
-        </script>
-
-        <script src="app.js"></script> -->
-
-        <!-- <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script> -->
-
-              <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
               
-<script src="app.js"></script>
+        <script src="app.js"></script>
 
 
     </body>
